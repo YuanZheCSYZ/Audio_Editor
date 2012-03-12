@@ -1,0 +1,76 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		20892462150D9C2A00B4F722 /* audioedit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = audioedit.c; path = ../audioedit.c; sourceTree = "<group>"; };
+		20892463150D9C3A00B4F722 /* Audio_Functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Audio_Functions.h; path = ../Audio_Functions.h; sourceTree = "<group>"; };
+		20892465150DE57F00B4F722 /* Audio_Functions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Audio_Functions.c; path = ../Audio_Functions.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		20892459150D9C1700B4F722 = {
+			isa = PBXGroup;
+			children = (
+				20892465150DE57F00B4F722 /* Audio_Functions.c */,
+				20892462150D9C2A00B4F722 /* audioedit.c */,
+				20892463150D9C3A00B4F722 /* Audio_Functions.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		2089245B150D9C1700B4F722 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2089245E150D9C1700B4F722 /* Build configuration list for PBXProject "Audio_Editor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 20892459150D9C1700B4F722;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		20892460150D9C1700B4F722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		20892461150D9C1700B4F722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2089245E150D9C1700B4F722 /* Build configuration list for PBXProject "Audio_Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20892460150D9C1700B4F722 /* Debug */,
+				20892461150D9C1700B4F722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2089245B150D9C1700B4F722 /* Project object */;
+}
